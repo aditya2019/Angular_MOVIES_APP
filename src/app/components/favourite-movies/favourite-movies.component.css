@@ -1,0 +1,14 @@
+.jumbotron
+{
+	margin: 30px;
+	
+}
+.heading{
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family: "Times New Roman", Times, serif;
+	height:20px;
+}
+.card-title{
+	font-weight: bold;
+}
