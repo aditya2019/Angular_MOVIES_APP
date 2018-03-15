@@ -7,7 +7,6 @@ import { HomeComponent } from '../home/home.component';
 })
 export class HeaderComponent implements OnInit {
   constructor() { }
-
   ngOnInit() {
   }
 

@@ -37,6 +37,64 @@
       "adult": false,
       "overview": "Heinzi Boesel and Kurt Fellner are two Austrian health inspectors forced to work together, traveling through Austria. Over time a beautiful friendship evolves between the odd couple who couldn't stand each other initially; a friendship that even overcomes the boundaries of great tragedy.",
       "release_date": "1993-10-07"
+    },
+    {
+      "vote_count": 0,
+      "id": 507531,
+      "video": false,
+      "vote_average": 0,
+      "title": "Hello & Goodbye",
+      "popularity": 6.307441,
+      "poster_path": "/lGTi0Ak7QLCMBnoOxj2WoNOMz0y.jpg",
+      "original_language": "en",
+      "original_title": "Hello & Goodbye",
+      "genre_ids": [],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "With wounds still open from the recent end of their 5 year relationship, Drew and Beth decide to meet up for a quiet dinner at Drew's apartment to help solidify their newly found station as \"just friends\".",
+      "release_date": "2018-03-09"
+    },
+    {
+      "vote_count": 3290,
+      "id": 18239,
+      "video": false,
+      "vote_average": 5.6,
+      "title": "The Twilight Saga: New Moon",
+      "popularity": 51.002476,
+      "poster_path": "/4O6OCHVrXie2Th8asDn5utvlTwC.jpg",
+      "original_language": "en",
+      "original_title": "The Twilight Saga: New Moon",
+      "genre_ids": [
+        12,
+        14,
+        18,
+        10749
+      ],
+      "backdrop_path": "/fOI3kFfMGBnNJJlnwYAXunpqzze.jpg",
+      "adult": false,
+      "overview": "Forks, Washington resident Bella Swan is reeling from the departure of her vampire love, Edward Cullen, and finds comfort in her friendship with Jacob Black, a werewolf. But before she knows it, she's thrust into a centuries-old conflict, and her desire to be with Edward at any cost leads her to take greater and greater risks.",
+      "release_date": "2009-03-15"
+    },
+    {
+      "vote_count": 1279,
+      "id": 1924,
+      "video": false,
+      "vote_average": 6.9,
+      "title": "Superman",
+      "popularity": 15.502654,
+      "poster_path": "/n2DOECThGG7h7m5AjLi2Nuh23u1.jpg",
+      "original_language": "en",
+      "original_title": "Superman",
+      "genre_ids": [
+        28,
+        12,
+        14,
+        878
+      ],
+      "backdrop_path": "/l4BuWj6RT9fG1idYkj6kTNtP50E.jpg",
+      "adult": false,
+      "overview": "Mild-mannered Clark Kent works as a reporter at the Daily Planet alongside his crush, Lois Lane. Clark must summon his superhero alter-ego when the nefarious Lex Luthor launches a plan to take over the world.",
+      "release_date": "1978-12-13"
     }
   ]
 }

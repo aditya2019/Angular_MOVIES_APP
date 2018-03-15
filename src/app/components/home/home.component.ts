@@ -11,7 +11,6 @@ import { AppConfig } from './../../config/config.constant';
 })
 export class HomeComponent implements OnInit {
  public movies: any=[];
- public movieId:number = 0;
  public movieUrl=AppConfig.baseUrl;
  public movieSearch : any;
  public favMovies : any =[];
@@ -25,36 +24,35 @@ export class HomeComponent implements OnInit {
      this.getFavorite();
   }
   
-  // Add favourite movie to  database
+// putting data into json on click
   addToFavorite(movie) {
     this.jsonApiService.addToFavourite(movie).subscribe((res) =>{
-     this.getFavorite();
-      this.showError = false;
-
+    this.getFavorite();
+    this.showError = false;
     },(error:any)=>{
-      this.errorMsg = error.statusText;
-      this.showError = true;
+    this.errorMsg = error.statusText;
+    this.showError = true;
         })
   }
 
-  // Add favourite movie to  database
+// Add favourite movie to  json
   getFavorite() {
     this.jsonApiService.getFavourite().subscribe((res) =>{
-      this.favMovies = res;
-      this.showError = false;
+    this.favMovies = res;
+    this.showError = false;
     },(error:any)=>{
-      this.errorMsg = error._body;
-      this.showError = true;
+    this.errorMsg = error._body;
+    this.showError = true;
     })
   }
-    //get search data on search button click
+// get search data on search button click
    search() {
     this.tmdbApiService.getSearch(this.movieSearch).subscribe(data=>{
-      this.movies=data.results;
+    this.movies=data.results;
         },(error:any)=>{
           console.log(error)
         })
-  }
+       }
     }
 
 
