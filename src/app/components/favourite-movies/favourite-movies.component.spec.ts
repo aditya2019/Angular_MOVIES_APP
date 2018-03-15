@@ -1,5 +1,4 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { FavouriteMoviesComponent } from './favourite-movies.component';
 
 describe('FavouriteMoviesComponent', () => {
