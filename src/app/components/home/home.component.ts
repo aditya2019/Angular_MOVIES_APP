@@ -11,7 +11,7 @@ import { AppConfig } from './../../config/config.constant';
 })
 export class HomeComponent implements OnInit {
  public movies: any=[];
- public movieUrl=AppConfig.baseUrl;
+ public movieUrl=AppConfig.baseUrl;l
  public movieSearch : any;
  public favMovies : any =[];
  public errorMsg ='';
